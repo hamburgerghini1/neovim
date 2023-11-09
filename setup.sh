@@ -10,4 +10,4 @@ mkdir -p "$HOME/.scripts"
 cp "$gitpath/.ignore" "$HOME/.ignore"
 ln -s "$gitpath/titus-kickstart" "$HOME/.config/nvim"
 # Share system clipboard with unnamedplus
-sudo apt install vim-gtk3 ripgrep fd-find xclip neovim python3-venv luarocks golang-go shellcheck -y
+sudo dnf install vim-X11 gvim ripgrep fd-find xclip neovim python3-virtualenv luarocks golang-go shellcheck -y
